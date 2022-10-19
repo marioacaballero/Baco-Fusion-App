@@ -1,0 +1,36 @@
+.mainDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 2rem;
+  background-color: #e9c46a;
+}
+
+.promo {
+  margin: auto;
+  width: 100%;
+  /* height: 30rem; */
+}
+
+.imgPr {
+  height: 30rem;
+}
+
+.section {
+  display: flex;
+  width: 95%;
+  gap: 2rem;
+}
+
+.caro {
+  margin: auto;
+  width: 30rem;
+  height: 35rem;
+}
+
+.imgC {
+  width: 30rem;
+  height: 35rem;
+}

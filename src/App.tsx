@@ -2,9 +2,11 @@ import React from "react";
 import "./App.css";
 import { Routes, Route } from "react-router-dom";
 import { Home } from "./Components/Home/Home";
-import { About } from "./Components/About/About";
-import { History } from "./Components/History/History";
 import { NavBar } from "./Components/NavBar/NavBar";
+import "antd/dist/antd.css";
+import { Footer } from "./Components/Footer/Footer";
+import { Menu } from "./Components/Menu/Menu";
+import { Reservations } from "./Components/Reservations/Reservations";
 
 function App() {
   return (
@@ -12,9 +14,10 @@ function App() {
       <NavBar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/history" element={<History />} />
+        <Route path="/menu" element={<Menu />} />
+        <Route path="/reservations" element={<Reservations />} />
       </Routes>
+      <Footer />
     </div>
   );
 }
