@@ -6,7 +6,8 @@ export const NavBar = () => {
   return (
     <div className={style.navBar}>
       <Link to={"/"}>LOGO BACO</Link>
-      <Link to={"/"}>Sobre nosotros</Link>
+      <a href="#promo">Promo</a>
+      <a href={"#baco"}>Sobre nosotros</a>
       <Link to={"/menu"}>Menu</Link>
       <Link to={"/reservations"}>Reservas</Link>
     </div>
