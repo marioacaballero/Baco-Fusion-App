@@ -38,10 +38,11 @@ export const Home: React.FC = () => {
           <div>
             <h2>Baco Fusion</h2>
             <p>
-              Baco Fusion es un restaurant que combina la cocina fusion con ...,
-              sus especialidades en pescado lo hacen destacar sobre el resto.
-              Atendido por sus dueños se produce un encanto peculiar, generando
-              un ambiente muy familiar para disfrutar de buenos momentos.
+              Baco Fusion es un restaurant que combina la cocina fusion con
+              aromas y sabores caceros, sus especialidades en pescado lo hacen
+              destacar sobre el resto. Atendido por sus dueños se produce un
+              encanto peculiar, generando un ambiente muy familiar para
+              disfrutar de buenos momentos.
             </p>
           </div>
         </section>
