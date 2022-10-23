@@ -1,16 +1,18 @@
 import logo from "../Baco/Menu/Logo.jpeg";
+import lomoBaco from "../Baco/Menu/LomoBaco.jpg";
+import lomoPimienta from "../Baco/Menu/LomoPimienta.jpg";
 
 export const menuFoodMeatData = [
   {
     name: "Lomo al estilo BACO",
     description:
       "Medallones de lomo, salsa de vino Malbec, pure rustico con crocantes de verdeo y jamon",
-    img: logo,
+    img: lomoBaco,
   },
   {
     name: "Lomo a la Pimienta",
     description: "Tournedo de lomo, pimienta en grano negra y papas a la crema",
-    img: logo,
+    img: lomoPimienta,
   },
   {
     name: "Lomo al Verdeo",

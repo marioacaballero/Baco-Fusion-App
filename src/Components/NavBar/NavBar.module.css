@@ -1,8 +1,73 @@
-.navBar{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 1rem;
-    padding: 1rem;
-    background-color: #e9c46a;
+.navBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* gap: 1rem; */
+  padding: 1rem;
+  background-color: #9d0208;
+  border-bottom: 1px solid black;
+  height: 7rem;
+}
+
+.navBar > section {
+  width: 33%;
+  display: flex;
+  gap: 7rem;
+  /* margin-left: 10rem; */
+  /* border: 1px solid black; */
+  justify-content: center;
+  position: relative;
+  /* height: 7rem; */
+  align-items: center;
+}
+
+.navBar > section > img {
+  width: 7rem;
+  height: 7rem;
+  position: absolute;
+  left: 0;
+}
+
+.navBar > section > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* height: 7rem; */
+}
+
+.navBar > section > div > h2 {
+  font-size: 1.7rem;
+  margin: 0;
+}
+
+.navBar > section > div > p {
+  font-size: 1rem;
+  margin: 0;
+}
+
+.navBar > section > h2:hover {
+  cursor: pointer;
+  scale: 1.2;
+  font-weight: bold;
+  transition: 0.5s;
+}
+
+.navBar > section > h3 {
+  position: absolute;
+  right: 1.5rem;
+  font-size: 1.5rem;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px;
+  box-shadow: 4px 4px 6px black;
+}
+
+.navBar > section > h3:hover {
+  cursor: pointer;
+  box-shadow: 4px 4px 6px rgb(22, 22, 22);
+  background-color: #8f0307;
+  transition: 0.5s;
+  scale: 1.1;
+  /* color: white; */
 }
