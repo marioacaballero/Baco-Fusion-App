@@ -15,11 +15,26 @@
 .menu > div > a {
   font-size: 1rem;
   color: #9d0208;
-  border-bottom: 1px solid #9d0208;
+  /* border-bottom: 1px solid #9d0208; */
+  --clippy: polygon(0 0, 0 0, 0 100%, 0% 100%);
+  
+
 }
 
+.menu > div > a::after {
+  content: "";
+  display: block;
+  background: #9d0208;
+  width: 100%;
+  margin-top: 3px;
+  height: 3px;
+  clip-path: var(--clippy);
+  transition: clip-path .5s;
+}
 .menu > div > a:hover {
   scale: 1.2;
+  font-weight: bold;
+  --clippy: polygon(0 0, 100% 0, 100% 100%, 0 100%);
 }
 
 .menu > section {

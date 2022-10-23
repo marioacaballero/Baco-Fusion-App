@@ -3,10 +3,71 @@
   align-items: center;
   justify-content: space-between;
   /* gap: 1rem; */
-  padding: 1rem;
+  /* padding: 1rem; */
   background-color: #9d0208;
   border-bottom: 1px solid black;
   height: 7rem;
+}
+
+.nav__label,
+.nav__input{
+  display: none;
+}
+
+.nav__menu {
+  width: 33%;
+  display: flex;
+  gap: 7rem;
+  /* margin-left: 10rem; */
+  /* border: 1px solid black; */
+  justify-content: center;
+  /* position: relative; */
+  /* height: 7rem; */
+  align-items: center;
+}
+
+
+
+@media (max-width: 700px) {
+  .navBar{
+    position: fixed;
+    width: 100%;
+  }
+  .nav__label{
+    display: block;
+    cursor: pointer;
+  }
+  /* .navBar{
+    position: ;
+  } */
+  .nav__menu {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    top: 7rem;
+    bottom: 0;
+    background-color: #9d0207de;
+    width: 100%;
+    /* height: 50%; */
+    clip-path: circle(0 at center);
+    transition: clip-path .7s ease-in-out;
+  }
+
+  .nav__input:checked + .nav__menu{
+    clip-path: circle(100% at center);
+  }
+
+  .navBar > section > div > h2 {
+    display: none;
+  }
+
+  .navBar > section > div > p {
+    display: none;
+  }
+
+
 }
 
 .navBar > section {
@@ -53,6 +114,13 @@
   transition: 0.5s;
 }
 
+.navBar > .nav__menu > h2:hover {
+  cursor: pointer;
+  scale: 1.2;
+  font-weight: bold;
+  transition: 0.5s;
+}
+
 .navBar > section > h3 {
   position: absolute;
   right: 1.5rem;
@@ -71,3 +139,36 @@
   scale: 1.1;
   /* color: white; */
 }
+
+
+.btn_hmb{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5rem;
+  flex-direction: column;
+  cursor: pointer;
+  transition: 0.4s ease-out;
+}
+
+
+.linea1, .linea2, .linea3{
+  width: 50px;
+  height: 10px;
+  background-color: rgb(26, 26, 26);
+  border-radius: 5px;
+  margin: 3px 0px;
+  transition: all 400ms ease;
+}
+
+/* .nav__input:checked ~ .linea1{
+  transform: rotate(140deg);
+  top: 10px
+}
+.nav__input:checked ~ .linea2{
+  opacity: 0;
+}
+.nav__input:checked ~ .linea3{
+  transform: rotate(-140deg);
+  top: 10px;
+} */
