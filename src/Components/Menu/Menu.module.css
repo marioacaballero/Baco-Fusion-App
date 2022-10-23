@@ -1,4 +1,34 @@
 .menu {
   background-color: #e9c46a;
   min-height: 100vh;
+
+}
+
+.menu > section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu > section > h2{
+  font-size: 3rem;
+  border-bottom: 10px solid #9d0208;
+  border-radius: 40%;
+  padding-bottom: 1rem;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+  width: 80%;
+  -webkit-text-stroke: 3px #9d0208;
+  color: #9d0208;
+  text-shadow: 4px 4px 6px black;
+  letter-spacing: 3px;
+}
+
+.cards{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
 }
