@@ -1,0 +1,28 @@
+.main {
+  display: flex;
+  width: 60rem;
+  height: fit-content;
+}
+
+.main > img {
+  width: 17rem;
+  height: 17rem;
+}
+
+.main > div {
+  display: flex;
+  width: 43rem;
+  height: 17rem;
+  flex-direction: column;
+}
+
+.main > div > h2 {
+  font-size: 3rem;
+  margin-top: 2rem;
+}
+
+.main > div > span {
+  font-size: 1.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
