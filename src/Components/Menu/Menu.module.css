@@ -1,7 +1,7 @@
 .menu {
   background-color: #e9c46a;
-  min-height: 100vh;
-
+  /* min-height: 100vh; */
+  
 }
 
 .menu > section {
@@ -31,4 +31,5 @@
   justify-content: center;
   align-items: center;
   gap: 2rem;
+  margin-bottom: 2rem;
 }
