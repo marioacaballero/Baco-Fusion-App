@@ -1,3 +1,9 @@
-.footer{
-  background-color: #e9c46a;
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* gap: 1rem; */
+  padding: 1rem;
+  background-color: #9d0208;
+  height: 7rem;
 }
