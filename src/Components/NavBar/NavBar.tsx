@@ -17,7 +17,7 @@ export const NavBar = () => {
       <section>
         <h2 onClick={() => navigate("/")}>Inicio</h2>
         <h2 onClick={() => navigate("/")}>Galeria</h2>
-        <h2 onClick={() => navigate("/menu")}>Menu</h2>
+        <h2 onClick={() => navigate("/menu/#carnes")}>Menu</h2>
       </section>
       <section>
         <h3 onClick={() => navigate("/reservations")}>Reservas</h3>

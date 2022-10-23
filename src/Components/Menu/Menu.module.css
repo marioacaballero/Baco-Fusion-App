@@ -1,7 +1,25 @@
 .menu {
   background-color: #e9c46a;
   /* min-height: 100vh; */
-  
+}
+
+.menu > div {
+  display: flex;
+  height: 3rem;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  padding-right: 10rem;
+  padding-left: 10rem;
+}
+.menu > div > a {
+  font-size: 1rem;
+  color: #9d0208;
+  border-bottom: 1px solid #9d0208;
+}
+
+.menu > div > a:hover {
+  scale: 1.2;
 }
 
 .menu > section {
@@ -11,7 +29,7 @@
   justify-content: center;
 }
 
-.menu > section > h2{
+.menu > section > h2 {
   font-size: 3rem;
   border-bottom: 10px solid #9d0208;
   border-radius: 40%;
@@ -25,7 +43,7 @@
   letter-spacing: 3px;
 }
 
-.cards{
+.cards {
   display: flex;
   flex-direction: column;
   justify-content: center;

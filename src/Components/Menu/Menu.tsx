@@ -12,7 +12,14 @@ import { Card } from "./Card";
 export const Menu: React.FC = () => {
   return (
     <div className={style.menu}>
-      <section>
+      <div>
+        <a href="/menu/#carnes">Carnes</a>
+        <a href="/menu/#cerdo">Cerdo</a>
+        <a href="/menu/#pollo">Pollo</a>
+        <a href="/menu/#pescado">Pescado</a>
+        <a href="/menu/#pasta">Pastas</a>
+      </div>
+      <section id={"carnes"}>
         <h2>Carnes</h2>
         <div className={style.cards}>
           {menuFoodMeatData.map((p) => (
@@ -20,7 +27,7 @@ export const Menu: React.FC = () => {
           ))}
         </div>
       </section>
-      <section>
+      <section id={"cerdo"}>
         <h2>Cerdo</h2>
         <div className={style.cards}>
           {menuFoodPorkData.map((p) => (
@@ -29,7 +36,7 @@ export const Menu: React.FC = () => {
         </div>
       </section>
       <section>
-        <h2>Pollo</h2>
+        <h2 id={"pollo"}>Pollo</h2>
         <div className={style.cards}>
           {menuFoodChickenData.map((p) => (
             <Card name={p.name} description={p.description} img={p.img} />
@@ -37,7 +44,7 @@ export const Menu: React.FC = () => {
         </div>
       </section>
       <section>
-        <h2>Pescado</h2>
+        <h2 id={"pescado"}>Pescado</h2>
         <div className={style.cards}>
           {menuFoodFishData.map((p) => (
             <Card name={p.name} description={p.description} img={p.img} />
@@ -45,7 +52,7 @@ export const Menu: React.FC = () => {
         </div>
       </section>
       <section>
-        <h2>Pastas</h2>
+        <h2 id={"pastas"}>Pastas</h2>
         <div className={style.cards}>
           {menuFoodPastaData.map((p) => (
             <Card name={p.name} description={p.description} img={p.img} />
