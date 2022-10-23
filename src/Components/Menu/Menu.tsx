@@ -17,7 +17,7 @@ export const Menu: React.FC = () => {
         <a href="/menu/#cerdo">Cerdo</a>
         <a href="/menu/#pollo">Pollo</a>
         <a href="/menu/#pescado">Pescado</a>
-        <a href="/menu/#pasta">Pastas</a>
+        <a href="/menu/#pastas">Pastas</a>
       </div>
       <section id={"carnes"}>
         <h2>Carnes</h2>
