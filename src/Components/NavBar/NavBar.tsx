@@ -26,7 +26,7 @@ export const NavBar = () => {
       <input type="checkbox" id="menu" className={style.nav__input} />
       <div className={style.nav__menu}>
         <h2 onClick={() => navigate("/")}>Inicio</h2>
-        <h2 onClick={() => navigate("/")}>Galeria</h2>
+        <h2 onClick={() => navigate("/galery")}>Galeria</h2>
         <h2 onClick={() => navigate("/menu/#carnes")}>Menu</h2>
       </div>
       <section>
