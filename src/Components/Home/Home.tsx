@@ -14,7 +14,7 @@ import style from "./Home.module.css";
 export const Home: React.FC = () => {
   return (
     <div className={style.mainDiv}>
-      <div id="promo" className={style.promo}>
+      <div className={style.promo}>
         <Carousel autoplay>
           <img alt="promo" src={promo} className={style.imgPr} />
           <img alt="promo2" src={promo2} className={style.imgPr} />
@@ -32,8 +32,7 @@ export const Home: React.FC = () => {
             <img alt="hall" src={hall} className={style.imgC} />
           </Carousel>
         </div>
-
-        <section id="baco">
+        <section>
           <img />
           <div>
             <h2>Baco Fusion</h2>

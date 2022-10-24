@@ -10,7 +10,7 @@
 }
 
 .nav__label,
-.nav__input{
+.nav__input {
   display: none;
 }
 
@@ -26,14 +26,12 @@
   align-items: center;
 }
 
-
-
 @media (max-width: 700px) {
-  .navBar{
+  .navBar {
     position: fixed;
     width: 100%;
   }
-  .nav__label{
+  .nav__label {
     display: block;
     cursor: pointer;
   }
@@ -52,10 +50,10 @@
     width: 100%;
     /* height: 50%; */
     clip-path: circle(0 at center);
-    transition: clip-path .7s ease-in-out;
+    transition: clip-path 0.7s ease-in-out;
   }
 
-  .nav__input:checked + .nav__menu{
+  .nav__input:checked + .nav__menu {
     clip-path: circle(100% at center);
   }
 
@@ -66,8 +64,6 @@
   .navBar > section > div > p {
     display: none;
   }
-
-
 }
 
 .navBar > section {
@@ -98,13 +94,22 @@
 }
 
 .navBar > section > div > h2 {
-  font-size: 1.7rem;
+  font-size: 2.5rem;
   margin: 0;
+  font-family: "My Soul";
+  font-weight: bold;
+  color: white;
+  -webkit-text-stroke: 0.1px black;
+  text-shadow: 6px 6px 8px black;
 }
 
 .navBar > section > div > p {
   font-size: 1rem;
   margin: 0;
+  text-transform: uppercase;
+  color: white;
+  -webkit-text-stroke: 0.1px black;
+  font-weight: bold;
 }
 
 .navBar > section > h2:hover {
@@ -140,8 +145,7 @@
   /* color: white; */
 }
 
-
-.btn_hmb{
+.btn_hmb {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -151,8 +155,9 @@
   transition: 0.4s ease-out;
 }
 
-
-.linea1, .linea2, .linea3{
+.linea1,
+.linea2,
+.linea3 {
   width: 50px;
   height: 10px;
   background-color: rgb(26, 26, 26);

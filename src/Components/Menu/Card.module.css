@@ -22,10 +22,13 @@
 .main > div > h2 {
   font-size: 3rem;
   margin-top: 2rem;
+  font-family: "Playball";
 }
 
 .main > div > span {
-  font-size: 1.5rem;
-  padding-left: 2rem;
-  padding-right: 2rem;
+  font-size: 1.7rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  font-family: "Playball";
+  color: rgb(62, 62, 62);
 }
