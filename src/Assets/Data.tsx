@@ -58,12 +58,12 @@ export const menuFoodPorkData = [
 export const menuFoodPastaData = [
   {
     name: "Ravioles de espinaca",
-    description: "con salsa",
+    description: "Con salsa",
     img: logo,
   },
   {
     name: "Sorrentinos de jamon y queso",
-    description: "con salsa",
+    description: "Con salsa",
     img: logo,
   },
 ];
@@ -91,7 +91,7 @@ export const menuFoodFishData = [
   },
   {
     name: "Boga rellena con verduras (morrones, cebolla)",
-    description: "con papas fritas",
+    description: "Con papas fritas",
     img: logo,
   },
 ];

@@ -1,4 +1,4 @@
-html{
+html {
   scroll-behavior: smooth;
 }
 
@@ -8,14 +8,15 @@ html{
   align-items: center;
   justify-content: center;
   width: 100%;
-  gap: 2rem;
+  /* gap: 2rem; */
   background-color: #e9c46a;
+  padding-bottom: 2rem;
 }
 
 .promo {
   margin: auto;
   width: 100%;
-  height: 50rem;
+  /* height: 50rem; */
 }
 
 .imgPr {
@@ -25,7 +26,7 @@ html{
 .section {
   display: flex;
   width: 95%;
-  gap: 2rem;
+  gap: 3rem;
 }
 
 .caro {
@@ -37,4 +38,25 @@ html{
 .imgC {
   width: 30rem;
   height: 35rem;
+}
+
+.section > section > div {
+  /* border: 1px solid black; */
+  /* border: 10px outset #cccccc;
+  background-color: #cccccc; */
+  border: 10px inset #d6c120;
+  background-color: #dddddd;
+}
+
+.section > section > div > p {
+  font-size: 3rem;
+  font-family: "Italianno";
+  text-align: left;
+  padding-left: 2rem;
+  padding-right: 1rem;
+  margin-bottom: 0;
+}
+.section > section > div > h2 {
+  font-size: 4rem;
+  font-family: "My Soul";
 }
