@@ -7,7 +7,7 @@ import "antd/dist/antd.css";
 import { Footer } from "./Components/Footer/Footer";
 import { Menu } from "./Components/Menu/Menu";
 import { Reservations } from "./Components/Reservations/Reservations";
-import { Galery } from "./Components/Galery/Galery";
+import { Gallery } from "./Components/Galery/Gallery";
 
 function App() {
   return (
@@ -16,7 +16,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/menu" element={<Menu />} />
-        <Route path="/galery" element={<Galery />} />
+        <Route path="/galery" element={<Gallery />} />
         <Route path="/reservations" element={<Reservations />} />
       </Routes>
       <Footer />
