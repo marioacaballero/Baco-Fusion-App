@@ -1,29 +1,54 @@
-import React, { Component } from 'react';
-import   './Gallery.css';
+import React from "react";
+import "./Gallery.css";
 
+export const GalleryModal = ({
+  show,
+  onClick,
+  src,
+}: {
+  show: Boolean;
+  onClick: any;
+  src: any;
+}) => {
+  return show ? (
+    <div className="modal-overlay" onClick={onClick}>
+      <div className="modal-body">
+        <a className="modal-close" href="#url" onClick={onClick}>
+          <span className="fa fa-times"></span>
+        </a>
 
-export default class GalleryModal extends Component {
-    render() {
-      
-      if (this.props.show === false) {
-        return null;
-      }
-      
-      return(
+        <img src={src} alt="" />
+      </div>
+    </div>
+  ) : (
+    <></>
+  );
+};
 
-        <div show={this.props.isOpen} className='modal-overlay' onClick={this.props.onClick} name={this.props.name}>
+// import React, { Component } from 'react';
 
-          <div className='modal-body'>
+// export default class GalleryModal extends Component {
+//     render() {
 
-            <a className='modal-close' href='#url' onClick={this.props.onClick}>
-              <span className='fa fa-times'></span>
-            </a>
+//       if (this.props.show === false) {
+//         return null;
+//       }
 
-            <img src={this.props.src} alt='' />
+//       return(
 
-          </div>
+//         <div show={this.props.isOpen} className='modal-overlay' onClick={this.props.onClick} name={this.props.name}>
 
-        </div>
-      )
-    }
-  }
+//           <div className='modal-body'>
+
+//             <a className='modal-close' href='#url' onClick={this.props.onClick}>
+//               <span className='fa fa-times'></span>
+//             </a>
+
+//             <img src={this.props.src} alt='' />
+
+//           </div>
+
+//         </div>
+//       )
+//     }
+//   }
