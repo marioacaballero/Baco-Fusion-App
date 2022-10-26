@@ -9,9 +9,11 @@ import { Menu } from "./Components/Menu/Menu";
 import { Reservations } from "./Components/Reservations/Reservations";
 import { Gallery } from "./Components/Galery/Gallery";
 
+
 function App() {
   return (
     <div className="App">
+
       <NavBar />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -20,6 +22,7 @@ function App() {
         <Route path="/reservations" element={<Reservations />} />
       </Routes>
       <Footer />
+
     </div>
   );
 }
