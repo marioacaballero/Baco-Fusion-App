@@ -9,17 +9,20 @@ html {
 }
 
 body {
-  position: relative;
+  /* position: relative; */
   font-size: 100%;
 }
 
 .gallery-container {
   padding-top: 1.875rem;
+  padding-left: 1.875rem;
+  padding-right: 1.875rem;
   background-color: #e9c46a;
+  position: relative;
 }
 
 .gallery-card {
-  position: relative;
+  /* position: relative; */
   overflow: hidden;
   margin-bottom: 1.875rem;
 }
@@ -74,7 +77,12 @@ body {
   padding: 0;
   overflow: auto;
   border-radius: 4px;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -98%);
+}
+
+.img{
+  width: 800px;
+  height: 600px;
 }
 
 .modal-close {
@@ -88,4 +96,27 @@ body {
 .modal-close:focus,
 .modal-close:hover {
   color: #fff;
+}
+
+@media (max-width: 700px){
+  .img{
+    width: 300px;
+    height: 400px;
+  }
+
+  .modal-body {
+    position: absolute;
+    top: 0.5rem;
+    left: 50%;
+    z-index: 11;
+    padding: 0;
+    overflow: auto;
+    border-radius: 4px;
+    transform: translate(-50%, 70%);
+  }
+
+  .gallery-container {
+    padding-top: 8.875rem;
+  }
+
 }
