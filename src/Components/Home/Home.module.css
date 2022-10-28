@@ -60,3 +60,18 @@ html {
   font-size: 4rem;
   font-family: "My Soul";
 }
+
+
+@media (max-width: 700px) {
+  .mainDiv{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .section{
+    flex-direction: column-reverse;
+    align-items: center;
+    margin-top: 30px;
+  }
+
+}
