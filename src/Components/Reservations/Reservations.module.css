@@ -2,3 +2,10 @@
   background-color: #e9c46a;
   min-height: 100vh;
 }
+
+@media (max-width: 700px) {
+
+  .reservations{
+    padding-top: 10em;
+  }
+}
