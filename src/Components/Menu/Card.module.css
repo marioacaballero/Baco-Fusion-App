@@ -43,4 +43,8 @@
   .main, .main > div {
     width: 100%;
   }
+
+  .main > div {
+    padding: 3px;
+  }
 }

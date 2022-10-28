@@ -1,0 +1,29 @@
+.main{
+    display: flex;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 3.5em;
+    height: 3.5em;
+    background-color: rgba(39, 38, 38, 0.295);
+    z-index: 99;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10%;
+    cursor: pointer;
+}
+
+.main:hover{
+    transition: 300ms;
+    background-color: rgba(0, 0, 0, 0.624);
+}
+.button{
+    color: black;
+    height: 3rem;
+    width: 3rem;
+}
+
+.button:hover{
+    transition: 300ms;
+    color: rgb(237, 231, 231)
+}
