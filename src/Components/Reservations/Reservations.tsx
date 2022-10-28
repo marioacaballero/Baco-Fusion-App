@@ -4,27 +4,29 @@ import style from "./Reservations.module.css";
 export const Reservations = () => {
   return (
     <div className={style.reservations}>
-      <div>Reservations</div>
       <section>
         <h3>
-          Para reservas o consultas hace click{" "}
+          Para reservas o consultas podes hacer click{" "}
           <a
-            href="https://api.whatsapp.com/send?phone=543416745943"
+            href="https://api.whatsapp.com/send?phone=5493442549695"
             id="btn-wsp"
             target="_black"
           >
-            ACÁ
+            AQUÍ
           </a>{" "}
-          o comunicate a nuestros telefonos{" "}
+          o tambien podes comunicarte vía whatsapp al +5493442549695
         </h3>
 
-        <h4>Importante! de viernes a domingos SOLO CON RESERVA.</h4>
+        <h4>
+          Información Importante! de viernes a domingos SOLO TRABAJAMOS CON
+          RESERVA.
+        </h4>
         <a
-          href="https://api.whatsapp.com/send?phone=543416745943"
+          href="https://api.whatsapp.com/send?phone=5493442549695"
           id="btn-wsp"
           target="_black"
         >
-          ICON
+          WSP
         </a>
       </section>
     </div>
