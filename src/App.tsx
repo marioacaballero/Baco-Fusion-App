@@ -8,6 +8,7 @@ import { Footer } from "./Components/Footer/Footer";
 import { Menu } from "./Components/Menu/Menu";
 import { Reservations } from "./Components/Reservations/Reservations";
 import { Gallery } from "./Components/Galery/Gallery";
+import { ButtonToTop } from "./Components/ButtonToTop/ButtonToTop";
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
     <div className="App">
 
       <NavBar />
+      <ButtonToTop/>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/menu" element={<Menu />} />
