@@ -16,6 +16,7 @@ html {
 .promo {
   margin: auto;
   width: 100%;
+  margin-top: 10em;
   /* height: 50rem; */
 }
 
@@ -72,6 +73,9 @@ html {
     flex-direction: column-reverse;
     align-items: center;
     margin-top: 30px;
+  }
+  .caro{
+    width: 100%;
   }
 
 }
