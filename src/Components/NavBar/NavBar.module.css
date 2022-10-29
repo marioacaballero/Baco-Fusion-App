@@ -89,6 +89,10 @@
   align-items: center;
 }
 
+.navBar > section:hover{
+  cursor: pointer;
+}
+
 .navBar > section > img {
   width: 7rem;
   height: 7rem;
@@ -131,29 +135,46 @@
   transition: 0.5s;
 }
 
+.nav__menu > h2{
+  font-size: 2rem;
+  font-family: 'Gentium Book Basic';
+  /* font-weight: bold; */
+  /* letter-spacing: 4px; */
+}
+
 .nav__menu > h2:hover {
   cursor: pointer;
-  scale: 1.2;
-  font-weight: bold;
+  scale: 1.1;
+  text-shadow: 0px 8px 6px rgb(51, 58, 45);
+  -webkit-text-stroke: 0.2px white;
+  /* font-weight: bold; */
   transition: 0.5s;
 }
 
 .navBar > section > h3 {
   position: absolute;
   right: 1.5rem;
-  font-size: 1.5rem;
-  border: 1px solid black;
+  font-size: 2rem;
+  /* border: 1px solid black;
   border-radius: 5px;
   padding: 5px;
-  box-shadow: 4px 4px 6px black;
+  box-shadow: 4px 4px 6px black; */
+  font-family: "My Soul";
+  font-weight: 500;
+  color: white;
+  -webkit-text-stroke: 0.1px black;
+  text-shadow: 6px 6px 8px rgb(22, 22, 22);
+  letter-spacing: 3px;
 }
 
 .navBar > section > h3:hover {
   cursor: pointer;
-  box-shadow: 4px 4px 6px rgb(22, 22, 22);
-  background-color: #8f0307;
-  transition: 0.5s;
-  scale: 1.1;
+  text-shadow: 10px 10px 12px black;
+  font-weight: 900;
+  /* background-color: #8f0307; */
+  letter-spacing: 2.5px;
+  /* transition: 0.5s; */
+  /* scale: 1.1; */
   /* color: white; */
 }
 
