@@ -19,7 +19,7 @@ export const NavBar = () => {
 
   return (
     <div className={style.navBar}>
-      <section>
+      <section onClick={() => navigate("/")}>
         <img alt="baco" src={logo} />
         <div>
           <h2>Baco Fusión</h2>
