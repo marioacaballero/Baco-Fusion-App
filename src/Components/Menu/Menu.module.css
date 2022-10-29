@@ -13,12 +13,10 @@
   padding-left: 10rem;
 }
 .menu > div > a {
-  font-size: 1rem;
+  font-size: 1.3rem;
   color: #9d0208;
   /* border-bottom: 1px solid #9d0208; */
   --clippy: polygon(0 0, 0 0, 0 100%, 0% 100%);
-  
-
 }
 
 .menu > div > a::after {
@@ -29,7 +27,7 @@
   margin-top: 3px;
   height: 3px;
   clip-path: var(--clippy);
-  transition: clip-path .5s;
+  transition: clip-path 0.5s;
 }
 .menu > div > a:hover {
   scale: 1.2;
@@ -57,7 +55,7 @@
   text-shadow: 4px 4px 6px black;
   letter-spacing: 10px;
   text-transform: uppercase;
-  font-family: 'El Messiri';
+  font-family: "El Messiri";
 }
 
 .cards {
@@ -67,4 +65,22 @@
   align-items: center;
   gap: 2rem;
   margin-bottom: 2rem;
+}
+
+@media (max-width: 700px) {
+  .menu {
+    padding-top: 7rem;
+  }
+
+  .menu > div {
+    gap: 1.2rem;
+  }
+
+  .menu > div > a {
+    font-size: 1.1rem;
+  }
+
+  .menu > section > h2{
+     margin-top: 3rem;
+  }
 }
