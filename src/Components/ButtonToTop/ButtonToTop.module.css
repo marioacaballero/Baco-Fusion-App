@@ -3,13 +3,13 @@
     position: fixed;
     bottom: 20px;
     right: 20px;
-    width: 3.5em;
-    height: 3.5em;
+    width: 3rem;
+    height: 3rem;
     background-color: rgba(39, 38, 38, 0.295);
     z-index: 99;
     align-items: center;
     justify-content: space-around;
-    border-radius: 10%;
+    border-radius: 50%;
     cursor: pointer;
 }
 
@@ -19,8 +19,8 @@
 }
 .button{
     color: black;
-    height: 3rem;
-    width: 3rem;
+    height: 2rem;
+    width: 2rem;
 }
 
 .button:hover{

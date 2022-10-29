@@ -13,7 +13,7 @@ export const ButtonToTop: React.FC = ()=> {
 
   return (
     <div className={style.main}>
-    <SiAcclaim className={style.button} height="3em" width="3em"
+    <SiAcclaim className={style.button} height="2rem" width="2rem"
     onClick={()=>{
       scrollToTop()
     }} />
