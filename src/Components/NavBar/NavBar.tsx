@@ -15,6 +15,7 @@ export const NavBar = () => {
   const goTo: Function = (path: String) => {
     toggle();
     navigate(`${path}`);
+    window.scroll(0, 0);
   };
 
   return (
