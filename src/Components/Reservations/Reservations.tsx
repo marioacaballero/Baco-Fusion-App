@@ -38,7 +38,7 @@ export const Reservations = () => {
             </div>
             <h3>
               <a
-                href="https://web.whatsapp.com/send?phone=5493442549695&text=Hola,%20quisiera%20reservar%20una%20mesa%20para%20"
+                href="https://api.whatsapp.com/send?phone=5493442549695&text=Hola,%20quisiera%20reservar%20una%20mesa%20para%20"
                 id="btn-wsp"
                 target="_black"
               >
