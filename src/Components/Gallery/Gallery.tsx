@@ -38,7 +38,7 @@ export const Gallery = () => {
       isOpen: true,
       url: url,
     });
-    window.scroll(0, 170)
+    window.scroll(0, 100)
   };
 
   // Function for closing modal dialog
