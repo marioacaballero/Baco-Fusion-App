@@ -1,4 +1,5 @@
 import React from "react";
+import Maps from "../GoogleMaps/Maps";
 import style from "./Reservations.module.css";
 
 export const Reservations = () => {
@@ -29,6 +30,7 @@ export const Reservations = () => {
           WSP
         </a>
       </section>
+      <Maps/>
     </div>
   );
 };
