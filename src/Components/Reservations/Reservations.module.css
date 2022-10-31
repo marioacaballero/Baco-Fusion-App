@@ -167,6 +167,11 @@
     width: 100%;
   }
 
+  .reservations > section > section > div > h3 > a {
+    color: white;
+    background-color: #df7b0f;
+  }
+
   .divSection {
     padding-top: 2rem;
     border-top: 1px solid gray;
