@@ -60,7 +60,7 @@ body {
 }
 
 .modal-overlay {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   position: absolute;
   top: 7rem;
   left: 0;
@@ -111,7 +111,7 @@ body {
 
   .modal-body {
     position: absolute;
-    top: -30%;
+    top: -23.5%;
     left: 50%;
     z-index: 11;
     padding: 0;
