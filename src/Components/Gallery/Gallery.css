@@ -101,13 +101,17 @@ body {
 
 @media (max-width: 700px){
   .img{
-    height: 570px;
+    height: 600px;
     width: 370px;
+  }
+
+  .modal-overlay {
+    height: 160%;
   }
 
   .modal-body {
     position: absolute;
-    top: 0.5rem;
+    top: -20%;
     left: 50%;
     z-index: 11;
     padding: 0;
