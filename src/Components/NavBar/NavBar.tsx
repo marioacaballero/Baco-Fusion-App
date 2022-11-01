@@ -18,9 +18,14 @@ export const NavBar = () => {
     window.scroll(0, 0);
   };
 
+  const goTo2: Function = (path: String) => {
+    navigate(`${path}`);
+    window.scroll(0, 0);
+  };
+
   return (
     <div className={style.navBar}>
-      <section onClick={() => navigate("/")}>
+      <section onClick={() => goTo2("/")}>
         <img alt="baco" src={logo} />
         <div>
           <h2>Baco Fusión</h2>
@@ -46,11 +51,11 @@ export const NavBar = () => {
       />
       <div className={style.nav__menu}>
         <h2 onClick={() => goTo("/")}>Inicio</h2>
-        <h2 onClick={() => goTo("/gallery")}>Galeria</h2>
+        <h2 onClick={() => goTo("/gallery/#top")}>Galeria</h2>
         <h2 onClick={() => goTo("/menu/#carnes")}>Menu</h2>
       </div>
       <section>
-        <h3 onClick={() => goTo("/reservations")}>Reservas</h3>
+        <h3 onClick={() => goTo2("/reservations")}>Reservas</h3>
       </section>
     </div>
   );

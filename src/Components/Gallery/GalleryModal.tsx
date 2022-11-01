@@ -14,7 +14,7 @@ export const GalleryModal = ({
 }) => {
   return show ? (
     <div className="modal-overlay" onClick={onClick}>
-      <div className="modal-body">
+      <div className="modal-body" id={id}>
         <a className="modal-close" href="#url" onClick={onClick}>
           <span className="fa fa-times"></span>
         </a>
