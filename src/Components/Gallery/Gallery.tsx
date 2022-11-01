@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import { GalleryImage } from "./GalleryImage";
 import { GalleryModal } from "./GalleryModal";
 import "./Gallery.css";
+import { useHref, useNavigate } from "react-router-dom";
 
 let imgUrls = [
   "https://scontent.faep14-3.fna.fbcdn.net/v/t39.30808-6/271875616_3029772800629830_6123713048690336497_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=8bfeb9&_nc_eui2=AeEyNBTXsIP5F8EvP1PMNvfzWy7agCSCDwhbLtqAJIIPCC9jpesjX3h7K6Jy_U46jIoLhhrJVWgL7j-BD2VCUNB9&_nc_ohc=h4BqdRI-PbEAX_A4zVP&_nc_ht=scontent.faep14-3.fna&oh=00_AT8epqUFWPME3p_AQQaouN4K7fKZF2kox1vWfiTTDlnaRA&oe=635E7803",
@@ -38,7 +39,7 @@ export const Gallery = () => {
       isOpen: true,
       url: url,
     });
-    window.scroll(0, 100)
+    window.location.assign('/gallery/#top')
   };
 
   // Function for closing modal dialog
@@ -77,6 +78,7 @@ export const Gallery = () => {
           show={isOpen.isOpen}
           onClick={closeModal}
           src={isOpen.url}
+          id={'top'}
         />
       ) : (
         <></>

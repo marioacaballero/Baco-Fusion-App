@@ -50,7 +50,7 @@ export const NavBar = () => {
         <h2 onClick={() => goTo("/menu/#carnes")}>Menu</h2>
       </div>
       <section>
-        <h3 onClick={() => navigate("/reservations")}>Reservas</h3>
+        <h3 onClick={() => goTo("/reservations")}>Reservas</h3>
       </section>
     </div>
   );
