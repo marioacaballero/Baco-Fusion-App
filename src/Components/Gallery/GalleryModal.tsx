@@ -5,10 +5,12 @@ export const GalleryModal = ({
   show,
   onClick,
   src,
+  id
 }: {
   show: Boolean;
   onClick: any;
-  src: any;
+  src: string;
+  id: string
 }) => {
   return show ? (
     <div className="modal-overlay" onClick={onClick}>
