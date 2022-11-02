@@ -1,9 +1,35 @@
 .footer {
   display: flex;
+  flex-direction: row;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   /* gap: 1rem; */
   padding: 1rem;
   background-color: #9d0208;
+  height: 9rem;
+}
+
+.brand>img{
+  width: 7rem;
   height: 7rem;
+}
+.brand>img:hover{
+  scale: 1.1;
+  transition: 0.3s
+}
+
+.redes{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 6rem;
+}
+.redes>a{
+  text-decoration: none;
+  color: black;
+}
+.redes>a:hover{
+  scale: 1.2;
+  transition: .3s;
 }
