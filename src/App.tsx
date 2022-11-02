@@ -9,6 +9,7 @@ import { Menu } from "./Components/Menu/Menu";
 import { Reservations } from "./Components/Reservations/Reservations";
 import { Gallery } from "./Components/Gallery/Gallery";
 import { ButtonToTop } from "./Components/ButtonToTop/ButtonToTop";
+import { MenuQr } from "./Components/MenuQr/MenuQr";
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/menu" element={<Menu />} />
+        <Route path="/menu/qr" element={<MenuQr />} />
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/reservations" element={<Reservations />} />
       </Routes>
