@@ -18,27 +18,40 @@ html {
   width: 100%;
   margin-top: 0;
   /* height: 50rem; */
+  padding-left: 20%;
+  padding-right: 20%;
 }
 
 .imgPr {
-  height: 30rem;
+  height: 55rem;
 }
 
 .section {
   display: flex;
+  align-items: center;
+  justify-content: center;
   width: 95%;
   gap: 3rem;
+  /* border: 1px solid black; */
+  margin-top: 2rem;
 }
 
 .caro {
   margin: auto;
   width: 30rem;
-  height: 35rem;
+  height: 36rem;
+  /* border: 1px solid red; */
 }
 
 .imgC {
   width: 30rem;
-  height: 35rem;
+  height: 36rem;
+}
+
+.section > section{
+   /* border: 1px solid red; */
+   display: flex;
+   
 }
 
 .section > section > div {
@@ -62,24 +75,29 @@ html {
   font-family: "My Soul";
 }
 
-
 @media (max-width: 700px) {
-  .mainDiv{
+  .mainDiv {
     flex-direction: column;
     align-items: center;
-  }
-  
-  .promo{
-    margin-top: 0;
+    padding-top: 7rem;
   }
 
-  .section{
+  .promo {
+    margin-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .imgPr {
+    height: 45rem;
+  }
+
+  .section {
     flex-direction: column-reverse;
     align-items: center;
     margin-top: 30px;
   }
-  .caro{
+  .caro {
     width: 100%;
   }
-
 }
