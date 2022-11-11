@@ -50,8 +50,8 @@ export const Reservations = () => {
       </section>
       <div className={style.info}>
         <BsInfoCircleFill className={style.icon2} />
-        <h3>De viernes a domingo</h3>
-        <p>Solo se trabaja con reserva, los esperamos.</p>
+        <h3>Eventos</h3>
+        <p>Salón para eventos y cenas privadas.</p>
       </div>
       <Maps />
     </div>
