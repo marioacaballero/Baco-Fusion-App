@@ -14,15 +14,14 @@ export const NavBar = () => {
   };
 
   const goTo: Function = (path: String) => {
-    toggle();
     navigate(`${path}`);
     window.scroll(0, 0);
+    toggle();
   };
 
   const goTo2: Function = (path: String) => {
     navigate(`${path}`);
     window.scroll(0, 0);
-    toggle();
   };
 
   return (
