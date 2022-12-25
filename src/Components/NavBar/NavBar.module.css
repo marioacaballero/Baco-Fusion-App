@@ -11,7 +11,8 @@
 }
 
 .nav__label,
-.nav__input {
+.nav__input,
+.garland_menu {
   display: none;
 }
 
