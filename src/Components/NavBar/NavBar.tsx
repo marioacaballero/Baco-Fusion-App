@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import style from "./NavBar.module.css";
-import logo from "../../Baco/Logo/LogoNav.png";
+import logo from "../../Baco/Logo/logoNavidadV2.png";
+import garland from "../../Baco/Logo/garland.png";
 
 export const NavBar = () => {
   const navigate = useNavigate();
@@ -21,10 +22,12 @@ export const NavBar = () => {
   const goTo2: Function = (path: String) => {
     navigate(`${path}`);
     window.scroll(0, 0);
+    toggle();
   };
 
   return (
     <div className={style.navBar}>
+      <img alt="garland" src={garland} className={style.garland} />
       <section onClick={() => goTo2("/")}>
         <img alt="baco" src={logo} />
         <div>
@@ -50,6 +53,7 @@ export const NavBar = () => {
         className={style.nav__input}
       />
       <div className={style.nav__menu}>
+        <img alt="garland" src={garland} className={style.garland_menu} />
         <h2 onClick={() => goTo("/")}>Inicio</h2>
         <h2 onClick={() => goTo("/gallery/#top")}>Galeria</h2>
         <h2 onClick={() => goTo("/menu/#carnes")}>Menu</h2>

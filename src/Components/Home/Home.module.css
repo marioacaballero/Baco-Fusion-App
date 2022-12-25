@@ -16,7 +16,7 @@ html {
 .promo {
   margin: auto;
   width: 100%;
-  margin-top: 0;
+  margin-top: 0.5rem;
   /* height: 50rem; */
   padding-left: 20%;
   padding-right: 20%;
@@ -48,10 +48,9 @@ html {
   height: 36rem;
 }
 
-.section > section{
-   /* border: 1px solid red; */
-   display: flex;
-   
+.section > section {
+  /* border: 1px solid red; */
+  display: flex;
 }
 
 .section > section > div {
