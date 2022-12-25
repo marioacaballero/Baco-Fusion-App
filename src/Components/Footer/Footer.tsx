@@ -4,6 +4,7 @@ import { BsFacebook, BsInstagram } from "react-icons/bs";
 import { FaMapMarkedAlt, FaPhoneSquareAlt } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
 import { Copyright } from "./Copyright";
+import garland from "../../Baco/Logo/garland.png";
 
 export const Footer = () => {
   const navigate = useNavigate();
@@ -15,6 +16,7 @@ export const Footer = () => {
 
   return (
     <div className={style.footer}>
+      <img alt="garland" src={garland} className={style.garland} />
       <section>
         <div
           className={style.brand}
