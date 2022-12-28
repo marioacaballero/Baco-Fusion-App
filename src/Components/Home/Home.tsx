@@ -7,9 +7,9 @@ import copa2 from "../../Baco/Lugar/Copa2.jpg";
 import pescado from "../../Baco/Lugar/pescadoRelleno.jpg";
 import hall from "../../Baco/Lugar/Hall.jpg";
 import adentro from "../../Baco/Lugar/Adentro4.jpg";
-import promo from "../../Baco/Promos/navidad.jpeg";
-import promo2 from "../../Baco/Promos/octubre2.jpeg";
-import promo3 from "../../Baco/Promos/octubre3.jpeg";
+import promo from "../../Baco/Promos/anioNuevo.jpeg";
+import promo2 from "../../Baco/Promos/navidad.jpeg";
+import promo3 from "../../Baco/Promos/octubre2.jpeg";
 import style from "./Home.module.css";
 
 export const Home: React.FC = () => {
