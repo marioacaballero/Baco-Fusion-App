@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import style from "./NavBar.module.css";
-import logo from "../../Baco/Logo/logoNavidadV2.png";
+import logo from "../../Baco/Logo/LogoNav.png";
 import garland from "../../Baco/Logo/garland.png";
 
 export const NavBar = () => {
