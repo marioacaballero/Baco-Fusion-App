@@ -31,6 +31,7 @@
 }
 
 .garland {
+  display: none;
   width: 100%;
   height: 6rem;
   position: absolute;
@@ -49,7 +50,7 @@
   }
 
   .garland_menu {
-    display: flex;
+    display: none;
     width: 100%;
     height: 6rem;
     position: absolute;
